@@ -73,7 +73,7 @@ This API enables you to retrieve data from a specific collection in the Dowell d
 
 #### Parameters
 
-- `api-key` (required): Your Dowell API key.
+- `api_key` (required): Your Dowell API key.
 - `db_name`: The name of the database.
 - `coll_name`: The name of the collection to fetch data from.
 - `operation`: The operation type, which is "fetch" for this request.
@@ -91,7 +91,7 @@ url = "https://datacube.uxlivinglab.online/db_api/crud/"
 query = {"_id": "101001010101"}
 
 data = {
-    "api-key": "your-dowell-api-key",
+    "api_key": "your-dowell-api-key",
     "db_name": "dowell",
     "coll_name": "test",
     "operation": "fetch",
@@ -120,7 +120,7 @@ Use this API to add data to a specific collection within the Dowell database.
 
 ```json
 {
-    "api-key": "your-dowell-api-key",
+    "api_key": "your-dowell-api-key",
     "db_name": "dowell",
     "coll_name": "test",
     "operation": "insert",
@@ -137,7 +137,7 @@ Use this API to add data to a specific collection within the Dowell database.
 
 #### Parameters
 
-- `api-key` (required): Your Dowell API key.
+- `api_key` (required): Your Dowell API key.
 - `db_name`: The name of the database.
 - `coll_name`: The name of the collection for data insertion.
 - `operation`: The operation type, which is "insert" for this request.
@@ -161,7 +161,7 @@ data_to_insert = {
 }
 
 data = {
-    "api-key": "your-dowell-api-key",
+    "api_key": "your-dowell-api-key",
     "db_name": "dowell",
     "coll_name": "test",
     "operation": "insert",
@@ -192,7 +192,7 @@ Use this API to update data in a specific collection within the Dowell database.
 
 ```json
 {
-    "api-key": "your-dowell-api-key",
+    "api_key": "your-dowell-api-key",
     "db_name": "dowell",
     "coll_name": "test",
     "operation": "update",
@@ -231,7 +231,7 @@ data_to_update = {
 }
 
 data = {
-    "api-key": "your-dowell-api-key",
+    "api_key": "your-dowell-api-key",
     "db_name": "dowell",
     "coll_name": "test",
     "operation": "update",
@@ -255,7 +255,7 @@ Use this API to remove data from a specific collection within the Dowell databas
 
 ```json
 {
-    "api-key": "your-dowell-api-key",
+    "api_key": "your-dowell-api-key",
     "db_name": "dowell",
     "coll_name": "test",
     "operation": "delete",
@@ -267,7 +267,7 @@ Use this API to remove data from a specific collection within the Dowell databas
 
 #### Parameters
 
-- `api-key` (required): Your Dowell API key.
+- `api_key` (required): Your Dowell API key.
 - `db_name`: The name of the database.
 - `coll_name`: The name of the collection from which data will be deleted.
 - `operation`: The operation type, which is "delete" for this request.
@@ -284,7 +284,7 @@ data_to_delete = {
 }
 
 data = {
-    "api-key": "your-dowell-api-key",
+    "api_key": "your-dowell-api-key",
     "db_name": "dowell",
     "coll_name": "test",
     "operation": "delete",
